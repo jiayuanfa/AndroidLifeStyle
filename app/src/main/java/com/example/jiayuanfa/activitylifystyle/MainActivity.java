@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(context, MainActivity.class);
         intent.putExtra("paramOne",paramOne);
         intent.putExtra("paramTwo",paramTwo);
+//        测试Dev
         context.startActivity(intent);
     }
 
